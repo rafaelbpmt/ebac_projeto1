@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: white
+}
+
+header{
+  padding: 16px 0;
+  background-color: #101010;
+  }
+
+  header img{
+    width: 210px;
+    margin-left: 90px;
+  }
+
+  header nav li{
+    display: inline;
+    margin-left: 18px;
+  }
+
+  header nav li a{
+    color: #ecf0f1;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    margin: 0 13px;
+    }
+
+    header nav li a:hover{
+      color: #D85A38;
+      transition: 0.4s;
+    }
+
+    header .container, section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 90px;
+    }
+
+    section .container{
+      align-items: flex-start;
+      margin-bottom: 100px;
+      background-color: white;
+    }
+
+    section{
+      padding: 24px 0;
+    }
+
+    section p{
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .game-cover{
+      height: 550px;
+      border-radius: 5px;
+      margin-top: 30px;
+      margin-left: 90px;
+      margin-right: 40px;
+    }
+
+    h1{
+      color: #101010;
+      font-size: 50px;
+      font-family: 'Poppins', sans-serif;
+      margin-top: 120px;
+      margin-bottom: 20px;
+    }
+
+    h2{
+      color: #D85A38;
+      font-family: 'Poppins', sans-serif;
+      font-size: 26px;
+      font-weight: 700;
+    }
+
+    p{
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .about{
+      font-family: 'Poppins', sans-serif;
+      padding: 0;
+    }
+
+    .buy-btn{
+      background-color: #D85A38;
+      color: white;
+      border: none;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      padding-left: 40px;
+      padding-right: 40px;
+      font-family: 'Poppins', sans-serif;
+      font-size: 18px;
+      font-weight: 500;
+      border-radius: 20px;
+      cursor: pointer;
+    }
+
+    .buy-btn:hover{
+      transition: 0.6s;
+      background-color: #c95434;
+    }
+
+    .container div a{
+      text-decoration: none;
+    }
+
+    .container-2 img{
+      width: 500px;
+    }
+
+
+    .ps-logo{
+      width: 25px;
+      margin-top: 15px;
+      margin-left: 15px;
+    }
+
+    footer{
+      background-color: #D85A38;
+      padding-top: 30px;
+      padding-bottom: 30px;
+    }
+
+    footer p{
+      margin-left: 30px;
+      color: white;
+      text-decoration: none;
+      font-size: 12px;
+    }
+
+    footer p a{
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      cursor: pointer;
+    }
+
+    .container-2{
+      text-align: center;
+    }
+  
+  .st-text{
+    margin-bottom: 30px;
+    color: #101010;
+  }
